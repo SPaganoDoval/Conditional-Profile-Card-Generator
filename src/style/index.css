@@ -1,5 +1,5 @@
 .filters {
-  background: white;
+  background: rgba(157, 236, 157, 0.664);
   width: 100%;
 }
 .filters li {
@@ -28,8 +28,9 @@
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
 .widget .cover {
-  height: 160px;
+  height: auto;
   overflow: hidden;
+  width: 100%;
 }
 .widget .cover img {
   width: 100%;
@@ -59,7 +60,7 @@
   color: #999;
 }
 .widget h1 {
-  margin: 60px 0 20px;
+  margin: 40px 0 20px;
   font-size: 26px;
   color: #000;
 }
