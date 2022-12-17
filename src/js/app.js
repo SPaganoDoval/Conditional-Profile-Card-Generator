@@ -63,7 +63,7 @@ function render(variables = {}) {
       : variables.socialMediaPosition;
   let twitter =
     variables.twitter == null || variables.twitter == ""
-      ? "https://twitter.com"
+      ? "https://twitter.com/?lang=es"
       : variables.twitter;
   let github =
     variables.github == null || variables.github == ""
